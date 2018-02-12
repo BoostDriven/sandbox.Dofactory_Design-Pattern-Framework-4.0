@@ -9,7 +9,7 @@ namespace Abstract.NETOptimized
     {
         static void Main(string[] args)
         {
-            //testing...
+            //testing..
         }
     }
 }
