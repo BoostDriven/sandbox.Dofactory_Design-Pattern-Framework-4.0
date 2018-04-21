@@ -19,6 +19,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy.Structural", "Proxy.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy.RealWorld", "Proxy.RealWorld\Proxy.RealWorld.csproj", "{617CA11E-1E8C-49EC-A78E-6E8486EF0ABC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{0064DBA5-CEFC-4247-9A41-EA0735ADB861}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{D1390DE0-5B8F-4DF7-83DF-587EDEEA76F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.Structural", "Command.Structural\Command.Structural.csproj", "{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,8 +91,22 @@ Global
 		{617CA11E-1E8C-49EC-A78E-6E8486EF0ABC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{617CA11E-1E8C-49EC-A78E-6E8486EF0ABC}.Release|x86.ActiveCfg = Release|Any CPU
 		{617CA11E-1E8C-49EC-A78E-6E8486EF0ABC}.Release|x86.Build.0 = Release|Any CPU
+		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}.Debug|x86.Build.0 = Debug|Any CPU
+		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}.Release|x86.ActiveCfg = Release|Any CPU
+		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81F25377-267D-4626-AE8C-854C9E72AD2C} = {0064DBA5-CEFC-4247-9A41-EA0735ADB861}
+		{E786460F-8DFF-42E5-B3EE-D80C4086D713} = {0064DBA5-CEFC-4247-9A41-EA0735ADB861}
+		{006FD09F-706C-4C11-BAC6-8526CA2AB2BF} = {0064DBA5-CEFC-4247-9A41-EA0735ADB861}
+		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC} = {D1390DE0-5B8F-4DF7-83DF-587EDEEA76F8}
 	EndGlobalSection
 EndGlobal
