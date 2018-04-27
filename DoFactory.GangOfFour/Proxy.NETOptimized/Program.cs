@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Proxy.RealWorld
+namespace Proxy.NETOptimized
 {
     class Program
     {
@@ -28,7 +28,7 @@ namespace Proxy.RealWorld
         double Div(double x, double y);
     }
 
-    class Math : IMath
+    class Math : MarshalByRefObject, IMath
     {
         public double Add(double x, double y)
         {
@@ -53,7 +53,18 @@ namespace Proxy.RealWorld
 
     class MathProxy : IMath
     {
-        private Math _math = new Math();
+        private Math _math;
+
+        public MathProxy()
+        {
+            var ad = AppDomain.CreateDomain("MathDomain", null, null);
+
+            var o = ad.CreateInstance(
+                "Proxy.NETOptimized",
+                "Proxy.NETOptimized.Math");
+
+            _math = (Math)o.Unwrap();
+        }
 
         public double Add(double x, double y)
         {
