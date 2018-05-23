@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Beha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.Structural", "Command.Structural\Command.Structural.csproj", "{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.RealWorld", "Command.RealWorld\Command.RealWorld.csproj", "{ED50F170-6C00-4447-8A19-E6FC62AAF0A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,14 @@ Global
 		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}.Release|x86.ActiveCfg = Release|Any CPU
 		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC}.Release|x86.Build.0 = Release|Any CPU
+		{ED50F170-6C00-4447-8A19-E6FC62AAF0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED50F170-6C00-4447-8A19-E6FC62AAF0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED50F170-6C00-4447-8A19-E6FC62AAF0A5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED50F170-6C00-4447-8A19-E6FC62AAF0A5}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED50F170-6C00-4447-8A19-E6FC62AAF0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED50F170-6C00-4447-8A19-E6FC62AAF0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED50F170-6C00-4447-8A19-E6FC62AAF0A5}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED50F170-6C00-4447-8A19-E6FC62AAF0A5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,5 +68,6 @@ Global
 		{E786460F-8DFF-42E5-B3EE-D80C4086D713} = {0064DBA5-CEFC-4247-9A41-EA0735ADB861}
 		{006FD09F-706C-4C11-BAC6-8526CA2AB2BF} = {0064DBA5-CEFC-4247-9A41-EA0735ADB861}
 		{33A3B5CA-C80F-452C-B3E5-8DD2475B48CC} = {D1390DE0-5B8F-4DF7-83DF-587EDEEA76F8}
+		{ED50F170-6C00-4447-8A19-E6FC62AAF0A5} = {D1390DE0-5B8F-4DF7-83DF-587EDEEA76F8}
 	EndGlobalSection
 EndGlobal
